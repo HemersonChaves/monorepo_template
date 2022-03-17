@@ -1,6 +1,7 @@
 {
   "extends": "../../tsconfig.json",
   "compilerOptions": {
+<<<<<<< HEAD
     "target": "ESNext",
     "useDefineForClassFields": true,
     "lib": ["DOM", "DOM.Iterable", "ESNext"],
@@ -21,3 +22,13 @@
   "include": ["src/**/*"],
   "references": [{ "path": "./tsconfig.node.json" }]
 }
+=======
+    "lib": ["esnext", "dom"],
+    "allowJs": false,
+    "checkJs": false,
+    "jsx": "react"
+  },
+  
+  "include": ["src/**/*"]
+}
+>>>>>>> b5e2fb2e53b6041232ad6b641f64a2847972b9a3

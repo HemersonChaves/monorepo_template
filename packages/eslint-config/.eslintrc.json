@@ -49,8 +49,12 @@
           "error",
           "ignorePackages",
           {
+<<<<<<< HEAD
               "ts": "never",
               "tsx": "never"
+=======
+              "ts": "never"
+>>>>>>> b5e2fb2e53b6041232ad6b641f64a2847972b9a3
           }
       ],
       "import-helpers/order-imports": [
@@ -83,6 +87,7 @@
   },
   "settings": {
       "import/resolver": {
+<<<<<<< HEAD
         "node": {
           "extensions": [
             ".js",
@@ -91,6 +96,8 @@
             ".tsx"
           ]
         },
+=======
+>>>>>>> b5e2fb2e53b6041232ad6b641f64a2847972b9a3
           "typescript": {}
       }
   }
