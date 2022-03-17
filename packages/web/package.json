@@ -9,9 +9,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "@monorepo/axios-config": "*",
+    "bulma": "^0.9.3",
     "react": "^17.0.2",
-    "react-dom": "^17.0.2",
-    "@monorepo/axios-config": "*"
+    "react-dom": "^17.0.2"
   },
   "devDependencies": {
     "@types/react": "^17.0.40",
